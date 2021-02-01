@@ -1,0 +1,116 @@
+p{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #00263A;
+}
+
+h2{
+    font-family: "Lora", Times, serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: #00263A;
+}
+
+h3{
+    padding: 40px 0px 0px 0px;
+    font-family: "Lora", Times, serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+h4{
+    font-family: "Lora", Times, serif;
+    font-size: 52px;
+    font-weight: 200;
+    color: #333F48;;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 36px;
+}
+
+.aggieblue{
+    background-color: #00263A;
+}
+
+.nav, .navbar-brand {
+    font-family: "Lora", Times, serif;
+    font-size: 20px;
+}
+
+.jumbotron{
+    background-image: url("../images/greenhouse-hero.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 80px 0px 0px 0px;
+    border-radius: .8rem;
+}
+
+.display-4{
+    font-family: "Lora", Times, serif;
+    font-size: 52px;
+    color: #333F48;
+    padding: 0px 0px 0px 40px;
+    margin: -40px 0px 0px 0px;
+}
+
+.lead{
+    font-family: "Lora", Times, serif;
+    font-size: 28px;
+    color: #333F48;
+    padding: 0px 0px 0px 40px;
+}
+
+.prototypeleader{
+    font-family: "Lora", Times, serif;
+    font-size: 28px;
+    color: #333F48;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.strongstat{
+    font-size: 90px;
+    font-weight: 100;
+    padding: 40px 0px 40px 0px;
+    color:#043389;
+}
+
+.emphasis{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.chunk{
+    width: 42%;
+}
+
+.hellogreenhouse{
+    background-image: url("../images/hello-greenhouse.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.btn {
+   height: 40px;
+}
+
+th[scope=row] {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #00263A;
+    font-weight: 300;
+}
+
+
