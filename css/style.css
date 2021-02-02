@@ -67,6 +67,10 @@ li{
     margin: -40px 0px 0px 0px;
 }
 
+.nav-link{
+    font-family: "Lora", Times, serif;
+}
+
 .lead{
     font-family: "Lora", Times, serif;
     font-size: 28px;
