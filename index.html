@@ -12,210 +12,259 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin="anonymous">
-    <!-- custom css -->
+    
+    <!-- animate.css-->
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link rel="stylesheet" href="css/site.css">
+    <style>
+      .wow:first-child {
+        visibility: hidden;
+      }
+    </style>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- custom css -->   
+
     <link rel="stylesheet" href="css/style.css">
     <title>Nathan Jolley - Greenhouse UX/UI Case Study</title>
   </head>
   <body>
-    <!-- Navigation -->
-    <div class="container-fluid">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark aggieblue">
-        <div class="container">
-          <a class="navbar-brand" href="#"><i class="fas fa-check"></i> Nathan Jolley</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item active pr-4">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item pr-4">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item pr-4">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+  <!-- Navigation, used navbar nav components-->
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark aggieblue">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-check"></i> Nathan Jolley</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active pr-4">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+    </nav>
+  </div>
+
+  <!-- Case Study Introduction-->
+  <!-- case study hero image, used jumnbotron component-->
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid class wow fadeInDown" data-wow-delay=".5s">
+      <div class="container">
+        <h1 class="display-4">Greenhouse</h1>
+        <p class="lead">Plant Care. Simplified.</p>
+      </div>
+    </div>
+  </div>
+      
+  <!-- Section - Case Study Intro used container and bootstarp 4 col system-->
+  <div class="container pt-4">
+    <div class="container">
+      <div class="row wow bounceInLeft">
+        <div class="col-sm col-lg pr-5 px-3">
+          <h2>Introduction</h2>
+          <p>
+            When someone is new to plant ownership, knowing when and how much water can be frustrating and overwhelming. We intend to take all of 
+            the complicated parts of plant ownership and make them as easy as taking a photo and setting reminders.
+          </p>
+        </div>
+        <div class="col-sm col-lg px-3">
+          <h2>The Team</h2>
+          <ul>
+            <li>Jenny Clausen</li>
+            <li>Nate Jolley</li>
+            <li>Scott Hickenlooper</li>
+          </ul>
+        </div>
+        <div class="col-sm col-lg px-3">
+          <h2>My Role</h2>
+          <ul>
+            <li>Design Research</li>
+            <li>Prototypes</li>
+            <li>User Interviews</li>
+            <li>Usability Testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Section - Survey Data, used cards component-->
+  <div class="container">
+    <h3 class="">Survey &amp; Interview Data</h3>
+    <p>Our approach to research inluded three zoom interviews with plant owners as well as a survey of over 100 people about their experinces with plants. Some of the information we 
+      learned includes the following points.
+    </p>
+    <div class="card-deck">      
+      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300"> 
+        <div class="card-body text-center">
+          <p class="card-text strongstat">86&#37;</p>
+          <p class="card-text">Of the people we surveyed own anywhere from 1 to 10 plants</p>
+        </div>
+      </div>
+      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300" data-wow-delay=".5s"> 
+        <div class="card-body text-center">
+          <p class="card-text strongstat">65&#37;</p>
+          <p class="card-text">Of the people surveyed own plants to bring happiness and aesthetics into their home</p>
+        </div>
+      </div>
+      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300" data-wow-delay="1s"> 
+        <div class="card-body text-center">
+          <p class="card-text strongstat">95&#37;</p>
+          <p class="card-text">Surveyed admitted they don’t know how to care for their plants correctly and have killed at least one plant</p>
+        </div>
+      </div>
+    </div>
+    
+      
+    <!--Section - survey and interview data, used card components -->
+    <div class="container">
+      <h3>Competitive Analysis</h3>
+      <p>We identified three mobile apps that would be in direct competition with Greenhouse through our survey asking which apps plant owners prefer and why. We then
+        conducted a SWOT analysis, created a priority matirx, and identified four opportunities to build on.
+      </p>
+      <div class="card shadow wow slideInRight" data-wow-duration="1s">
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Planta</th>
+                <th scope="col">Vera</th>
+                <th scope="col">Gardenia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Identify Plant Through Photographs</th>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <th scope="row">Discovery Page</th>
+                <td><img alt="checked" src="images/checked.jpg"></td>
+                <td><img alt="checked" src="images/checked.jpg"></td>
+                <td><img alt="checked" src="images/checked.jpg"></td>
+              </tr>
+              <tr>
+                <th scope="row">Free Watering Schedule</th>
+                <td><img alt="checked" src="images/checked.jpg"></td>
+                <td> </td>
+                <td><img alt="checked" src="images/checked.jpg"></td>
+              </tr>
+              <tr>
+                <th scope="row">Earn Rewards for Keeping Plants Alive</th>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
 
-      <!-- Case Study Introduction-->
-      <!-- case study hero image-->
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid">
+    <!-- Section - Problem Statement used card components -->
+    <div class="container">
+      <h3>Problem Statement</h3>
+      <div class="card bg-light shadow wow fadeInDown">
+        <div class="card-body">
+          <p class="emphasis">We observed that most plant owners struggle to keep their plants alive, which is causing them 
+          to feel inadequate as plant parents. How might we inform plant parents with the information 
+          they need to better care for their plants?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section - Testing and Iterations, used card compeonents -->
+    <div class="container">
+      <h3>Testing &amp; Iterations</h3>
+      <div class="card shadow mb-4 wow slideInRight" data-wow-duration="1s">
+        <div class="card-body">
+          <p>After user testing we decided to change the user flow, eliminating a lengthy onboarding process to go right into the task of adding a plant.</p>
+          <img id="casestudyimg1" src="images/user-flow.jpg">
+        </div>
+      </div>
+      <div class="card shadow mb-4 wow fadeInDown" data-wow-duration=".5s">
+        <div class="card-body">
           <div class="container">
-            <h1 class="display-4">Greenhouse</h1>
-            <p class="lead">Plant Care. Simplified.</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Section - Case Study Intro -->
-      <div class="container pt-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm col-lg px-3">
-              <h2>Introduction</h2>
-              <p>
-                When someone is new to plant ownership, knowing when and how much water can be frustrating and overwhelming. We intend to take all of 
-                the complicated parts of plant ownership and make them as easy as taking a photo and setting reminders.
-              </p>
-            </div>
-            <div class="col-sm col-lg px-5">
-              <h2>The Team</h2>
-              <ul>
-                <li>Jenny Clausen</li>
-                <li>Nate Jolley</li>
-                <li>Scott Hickenlooper</li>
-              </ul>
-            </div>
-            <div class="col-sm col-lg px-0">
-              <h2>My Role</h2>
-              <ul>
-                <li>Design Research</li>
-                <li>Prototypes</li>
-                <li>User Testing</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--Section - Survey Data-->
-      <div class="container">
-        <h3>Survey &amp; Interview Data</h3>
-        <div class="card-deck">
-          <div class="card bg-light shadow">
-          <div class="card-body text-center">
-            <p class="card-text strongstat">86&#37;</p>
-            <p class="card-text">Of the people we surveyed own anywhere from 1 to 10 plants</p>
-          </div>
-        </div>
-        <div class="card bg-light shadow">
-          <div class="card-body text-center">
-            <p class="card-text strongstat">65&#37;</p>
-            <p class="card-text">Of the people surveyed own plants to bring happiness and aesthetics into their home</p>
-          </div>
-        </div>
-        <div class="card bg-light shadow">
-          <div class="card-body text-center">
-            <p class="card-text strongstat">95&#37;</p>
-            <p class="card-text">Surveyed admitted they don’t know how to care for their plants correctly and have killed at least one plant</p>
-          </div>
-        </div>
-      </div>
-      
-      <!--Section - survey and interview data-->
-      <div class="container">
-        <h3>Competitive Analysis</h3>
-        <div class="card shadow">
-          <div class="card-body">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Planta</th>
-                  <th scope="col">Vera</th>
-                  <th scope="col">Gardenia</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Identify Plant Through Photographs</th>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <th scope="row">Discovery Page</th>
-                  <td><img alt="checked" src="images/checked.jpg"></td>
-                  <td><img alt="checked" src="images/checked.jpg"></td>
-                  <td><img alt="checked" src="images/checked.jpg"></td>
-                </tr>
-                <tr>
-                  <th scope="row">Free Watering Schedule</th>
-                  <td><img alt="checked" src="images/checked.jpg"></td>
-                  <td> </td>
-                  <td><img alt="checked" src="images/checked.jpg"></td>
-                </tr>
-                <tr>
-                  <th scope="row">Earn Rewards for Keeping Plants Alive</th>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-      </div>
-
-      <!-- Section - Problem Statement -->
-      <div class="container">
-        <h3>Problem Statement</h3>
-        <div class="card bg-light shadow">
-          <div class="card-body">
-            <p class="emphasis">We observed that most plant owners struggle to keep their plants alive, which is causing them 
-            to feel inadequate as plant parents. How might we inform plant parents with the information 
-            they need to better care for their plants?</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Section - Testing and Iterations -->
-      <div class="container">
-        <h3>Testing &amp; Iterations</h3>
-        <div class="card shadow mb-4">
-          <div class="card-body">
-            <p class="chunk">After user testing we decided to change the user flow, eliminating a lengthy onboarding process to go right into the task of adding a plant.</p>
-            <img src="images/user-flow.jpg">
-          </div>
-        </div>
-        <div class="card shadow mb-4">
-          <div class="card-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm">
-                  <p>Removed ‘sun’ progress symbol and replaced it with more recognized progression indicator</p>
-                  <p>We also added the ability to swipe out of onboarding & discover pages</p>
-                </div>
-                <div class="col-sm">
-                  <img alt="improved screens" src="images/calendar-screen.jpg">
-                </div>
+            <div class="row">
+              <div class="col-sm">
+                <p>Removed ‘sun’ progress symbol and replaced it with more recognized progression indicator</p>
+                <p>We also added the ability to swipe out of onboarding & discover pages</p>
+              </div>
+              <div class="col-sm">
+                <img id="casestudyimg2" alt="improved screens" src="images/calendar-screen.jpg">
               </div>
             </div>
           </div>
         </div>
-        <div class="card shadow">
-          <div class="card-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm">
-                  <p>Based on feedback from testing we simplified our navigation bar</p>
-                </div>
-                <div class="col-sm">
-                  <img alt="improved screens" src="images/menu-system.jpg">
-                </div>
+      </div>
+      <div class="card shadow wow fadeInDown" data-wow-duration="1.5s">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p>Based on feedback from testing we simplified our navigation bar</p>
+              </div>
+              <div class="col-sm">
+                <img id="casestudyimg3" alt="improved screens" src="images/menu-system.jpg">
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-      <!-- Section - Final Prototype--> 
-      <div class="container">
-        <h3>Final Prototype</h3>
-        <div class="card shadow hellogreenhouse">
-          <div class="card-body">
-            <div class="container p-5">
-              <h4>Say Hello to Greenhouse</h4>
-              <p class="prototypeleader">Plant Care. Simplified</p>
-              <a class="btn btn-primary rounded-pill mt-5" role="button" href="#">Click to View Prototype</a>
-            </div>
+    <!-- Section - Final Prototype, used card components, buttons--> 
+    <div class="container">
+      <h3>Final Prototype</h3>
+      <div class="card shadow hellogreenhouse wow bounceInDown" data-wow-duration="1.5s">
+        <div class="card-body">
+          <div class="container p-5">
+            <h4>Say Hello to Greenhouse</h4>
+            <p class="prototypeleader">Plant Care. Simplified</p>
+            <a class="btn btn-primary rounded-pill btn-lg mt-5" role="button" href="#">Click to View Prototype</a>
           </div>
         </div>
+      </div>
 
+    <!-- Footer Section , used card components, buttons-->
+    <div class="container">
+      <div class="topfooter">
+        <p class="imavailable">I’m available for new projects</p>
+        <p>Send me a message and let’s discuss</p>
+        <a class="btn btn-primary rounded-pill btn-lg mt-5" role="button" href="#">Message Me</a>
+      </div>
+      <div class="bottomfooter">
+        <p>Contact Information</p>
+        <p>Nate.e.jolley@gmail.com</p>
+        <p>Follow me on: <a href="https://www.linkedin.com/in/nathan-jolley-39b593/"><img src="images/linked-in.png" height="18px"></a></p>
+        <p>Copyright 2021</p>
+      </div>
+    </div>
+
+    <script src="dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

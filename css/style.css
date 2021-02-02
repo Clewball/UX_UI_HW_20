@@ -41,6 +41,10 @@ li{
     background-color: #00263A;
 }
 
+.txtfittingwhite{
+    color: #ffffff;
+}
+
 .nav, .navbar-brand {
     font-family: "Lora", Times, serif;
     font-size: 20px;
@@ -100,12 +104,10 @@ li{
     background-image: url("../images/hello-greenhouse.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: center bottom;
     height: 450px;
 }
 
-.btn {
-   height: 40px;
-}
 
 th[scope=row] {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -113,4 +115,102 @@ th[scope=row] {
     font-weight: 300;
 }
 
+.topfooter{
+    background-color: #00263A;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+    margin: 80px 0px 0px 0px;
+    padding: 80px 0px 80px 40px;
+
+}
+
+.topfooter p{
+    color: #ffffff;
+}
+
+.imavailable{
+    font-family: "Lora", Times, serif;
+    font-weight: 200;
+    font-size: 38px;
+}
+
+.bottomfooter{
+    background-color: #8A8D8F;
+    color: #ffffff;
+    padding: 20px 0px 20px 40px;
+}
+
+.bottomfooter p{
+    color: #ffffff;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width: 767px){   
+    #casestudyimg1{      
+        content:url("../images/user-flow-xs.jpg");
+    }
+    #casestudyimg2{      
+        content:url("../images/calendar-screen-sm.jpg");
+    }
+    #casestudyimg3{      
+        content:url("../images/menu-system-sm.jpg");
+    }
+    h4{
+        font-size: 28px;
+    }
+    .prototypeleader{
+        font-size: 18px;
+    }
+    .strongstat{
+        font-size: 55px;
+    }    
+} 
+
+
+@media screen and (min-width: 768px) {      
+    #casestudyimg1{      
+       content:url("../images/user-flow-xs.jpg");
+     }
+     #casestudyimg2{      
+        content:url("../images/calendar-screen-sm.jpg");
+    }
+    #casestudyimg3{      
+        content:url("../images/menu-system-sm.jpg");
+    }
+    h4{
+        font-size: 28px;
+    }
+    .prototypeleader{
+        font-size: 18px;
+    }
+    .strongstat{
+        font-size: 60px;
+    }       
+} 
+
+@media (min-width: 992px){      
+    #casestudyimg1{        
+          content:url("../images/user-flow-sm.jpg");  
+      }
+    #casestudyimg2{      
+        content:url("../images/calendar-screen.jpg");
+    } 
+    #casestudyimg3{      
+        content:url("../images/menu-system.jpg");
+    }  
+}
+
+@media (min-width: 1200px) {    
+    #casestudyimg1{         
+         content:url("../images/user-flow.jpg");   
+     }
+    #casestudyimg2{      
+        content:url("../images/calendar-screen.jpg");
+    }
+    #casestudyimg3{      
+        content:url("../images/menu-system.jpg");
+    }  
+}
 
