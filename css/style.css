@@ -116,6 +116,7 @@ li{
 th[scope=row] {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: #00263A;
+    font-size: 18px;
     font-weight: 300;
 }
 
