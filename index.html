@@ -27,10 +27,11 @@
     <!-- custom css -->   
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Nathan Jolley - Greenhouse UX/UI Case Study</title>
+    <title>Nathan Jolley - User Experince Designer</title>
   </head>
   <body>
   <!-- Navigation, used navbar nav components-->
+  
   <div class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark aggieblue">
       <div class="container">
@@ -43,209 +44,61 @@
             <li class="nav-item active pr-4">
               <a class="nav-link" href="https://clewball.github.io/UX_UI_HW_19/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item pr-4">
-              <a class="nav-link" href="#">My Work</a>
+            <li class="nav-item dropdown pr-4">
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">My Work</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="projects/edgov.html"><i class="fas fa-landmark"></i> Government Agency Redesign</a>
+                <a class="dropdown-item" href="projects/positron-app.html"><i class="fas fa-star-of-life"></i> Mental Health App</a>
+                <a class="dropdown-item" href="projects/elevate1life.html"><i class="fas fa-hands-helping"></i> Nonprofit Organization Redesign</a>
+                <a class="dropdown-item" href="projects/greenhouse-app.html"><i class="fas fa-leaf"></i> Plant Care App</a>           
+                <a class="dropdown-item" href="projects/travel-app.html"><i class="fas fa-globe-americas"></i> World Travel Mobile App</a>
+              </div>
             </li>
             <li class="nav-item pr-4">
               <a class="nav-link" href="#">Hire Me</a>
             </li>
           </ul>
-        </div>
-      </nav>
+        </div> 
+      </div>
     </nav>
   </div>
 
-  <!-- Case Study Introduction-->
-  <!-- case study hero image, used jumnbotron component-->
   <div class="container">
-    <div class="jumbotron jumbotron-fluid class wow fadeInDown" data-wow-delay=".5s">
-      <div class="container">
-        <h1 class="display-4">Greenhouse</h1>
-        <p class="lead">Plant Care. Simplified.</p>
-      </div>
-    </div>
-  </div>
-      
-  <!-- Section - Case Study Intro used container and bootstarp 4 col system-->
-  <div class="container pt-4">
-    <div class="container">
-      <div class="row wow bounceInLeft">
-        <div class="col-sm col-lg pr-5 px-3">
-          <h2>Introduction</h2>
-          <p>
-            When someone is new to plant ownership, knowing when and how much water can be frustrating and overwhelming. We intend to take all of 
-            the complicated parts of plant ownership and make them as easy as taking a photo and setting reminders.
-          </p>
-        </div>
-        <div class="col-sm col-lg px-3">
-          <h2>The Team</h2>
-          <ul>
-            <li>Jenny Clausen</li>
-            <li>Nate Jolley</li>
-            <li>Scott Hickenlooper</li>
-          </ul>
-        </div>
-        <div class="col-sm col-lg px-3">
-          <h2>My Role</h2>
-          <ul>
-            <li>Design Research</li>
-            <li>Prototypes</li>
-            <li>User Interviews</li>
-            <li>Usability Testing</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
   </div>
 
-  <!--Section - Survey Data, used cards component-->
+   <!--Section - Introducing Me-->
   <div class="container">
-    <h3 class="">Survey &amp; Interview Data</h3>
-    <p>Our approach to research inluded three zoom interviews with plant owners as well as a survey of over 100 people about their experinces with plants. Some of the information we 
-      learned includes the following points.
+    <img src="images/Nate-Portfolio-Main.jpg" width="288" height="385">
+    <h1>Hello! I’m Nate Jolley - UX Researcher &amp; UI Designer from Salt Lake City.</h1>
+    <p>
+        I am a  results-driven web professional with 10+ years of experience and recent UX/UI Bootcamp 
+        graduate seeking a position in the UX/UI design field. Seeking to change the trajectory of my career 
+        path to aim for new heights and achieve my  personal and professional goals. 
     </p>
-    <div class="card-deck">      
-      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300"> 
-        <div class="card-body text-center">
-          <p class="card-text strongstat">86&#37;</p>
-          <p class="card-text">Of the people we surveyed own anywhere from 1 to 10 plants</p>
-        </div>
-      </div>
-      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300" data-wow-delay=".5s"> 
-        <div class="card-body text-center">
-          <p class="card-text strongstat">65&#37;</p>
-          <p class="card-text">Of the people surveyed own plants to bring happiness and aesthetics into their home</p>
-        </div>
-      </div>
-      <div class="card bg-light shadow wow bounceInLeft" data-wow-offset="300" data-wow-delay="1s"> 
-        <div class="card-body text-center">
-          <p class="card-text strongstat">95&#37;</p>
-          <p class="card-text">Surveyed admitted they don’t know how to care for their plants correctly and have killed at least one plant</p>
-        </div>
-      </div>
-    </div>
+    <button>Download Resume</button>
   </div>
     
       
-  <!--Section - survey and interview data, used card components -->
+  <!--Section - Introduce My Skills -->
   <div class="container">
-    <h3>Competitive Analysis</h3>
-    <p>We identified three mobile apps that would be in direct competition with Greenhouse through our survey asking which apps plant owners prefer and why. We then
-        conducted a SWOT analysis, created a priority matirx, and identified four opportunities to build on.
-    </p>
-    <div class="card shadow wow slideInRight" data-wow-duration="1s">
-      <div class="card-body">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Planta</th>
-              <th scope="col">Vera</th>
-              <th scope="col">Gardenia</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Identify Plant Through Photographs</th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-            <tr>
-              <th scope="row">Discovery Page</th>
-              <td><img alt="checked" src="images/checked.jpg"></td>
-              <td><img alt="checked" src="images/checked.jpg"></td>
-              <td><img alt="checked" src="images/checked.jpg"></td>
-            </tr>
-            <tr>
-              <th scope="row">Free Watering Schedule</th>
-              <td><img alt="checked" src="images/checked.jpg"></td>
-              <td> </td>
-              <td><img alt="checked" src="images/checked.jpg"></td>
-            </tr>
-            <tr>
-              <th scope="row">Earn Rewards for Keeping Plants Alive</th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+
   </div>
 
-  <!-- Section - Problem Statement used card components -->
+  <!-- Section - Introduce My Projects -->
   <div class="container">
-    <h3>Problem Statement</h3>
-    <div class="card bg-light shadow wow fadeInDown">
-      <div class="card-body">
-        <div class="container">
-          <p class="emphasis">
-          We observed that most plant owners struggle to keep their plants alive, which is causing them 
-          to feel inadequate as plant parents. How might we inform plant parents with the information 
-          they need to better care for their plants?
-          </p>
-        </div>
-      </div>
-    </div>
+
   </div>
 
-    <!-- Section - Testing and Iterations, used card compeonents -->
+    <!-- Section - Introduce Tools -->
     <div class="container">
-      <h3>Testing &amp; Iterations</h3>
-      <div class="card shadow mb-4 wow slideInRight" data-wow-duration="1s">
-        <div class="card-body">
-          <div class="container">
-            <p>After user testing we decided to change the user flow, eliminating a lengthy onboarding process to go right into the task of adding a plant.</p>
-          </div>
-          <img id="casestudyimg1" src="images/user-flow.jpg">
-        </div>
-      </div>
-      <div class="card shadow mb-4 wow fadeInDown" data-wow-duration=".5s">
-        <div class="card-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <p>Removed ‘sun’ progress symbol and replaced it with more recognized progression indicator</p>
-                <p>We also added the ability to swipe out of onboarding & discover pages</p>
-              </div>
-              <div class="col-sm">
-                <img id="casestudyimg2" alt="improved screens" src="images/calendar-screen.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card shadow wow fadeInDown" data-wow-duration="1.5s">
-        <div class="card-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <p>Based on feedback from testing we simplified our navigation bar</p>
-              </div>
-              <div class="col-sm">
-                <img id="casestudyimg3" alt="improved screens" src="images/menu-system.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
 
-    <!-- Section - Final Prototype, used card components, buttons--> 
-    <div class="container">
-      <h3>Final Prototype</h3>
-      <div class="card shadow hellogreenhouse wow bounceInDown" data-wow-duration="1.5s">
-        <div class="card-body">
-          <div class="container p-5">
-            <h4>Say Hello to Greenhouse</h4>
-            <p class="prototypeleader">Plant Care. Simplified</p>
-            <a class="btn btn-primary rounded-pill btn-lg mt-5" role="button" href="#">Click to View Prototype</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Footer Section , used card components, buttons-->
     <div class="topfooter">

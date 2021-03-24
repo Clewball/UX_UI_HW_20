@@ -1,3 +1,7 @@
+body{
+    padding-top: 60px;
+}
+
 p{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -50,12 +54,16 @@ li{
     font-size: 20px;
 }
 
+.breadcrumb{
+    background-color:#fff;
+}
+
 .jumbotron{
     background-image: url("../images/greenhouse-hero.png");
     background-size:cover;
     background-repeat: no-repeat;
     height: 450px;
-    margin: 80px 0px 0px 0px;
+    margin: 16px 0px 0px 0px;
     border-radius: .8rem;
 }
 
