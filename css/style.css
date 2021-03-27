@@ -9,6 +9,13 @@ p{
     color: #00263A;
 }
 
+h1{
+    font-family:"Lora", Times, serif;
+    font-size: 4vw;
+    color: #7C878E;
+    /*padding: 0px 30px 0px 0px;*/
+} 
+
 h2{
     font-family: "Lora", Times, serif;
     font-size: 36px;
@@ -39,6 +46,10 @@ li{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 18px; 
     line-height: 36px;
+}
+
+.btn{
+    border-radius: 18px;
 }
 
 .aggieblue{
